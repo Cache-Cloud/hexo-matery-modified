@@ -108,8 +108,6 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: matery
 
-
-
 live2d:
   enable: true
   scriptFrom: local
