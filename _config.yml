@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 韦阳的博客
-subtitle: 算法码上来
-description: 华东师范大学 | 计算机科学与技术 | 自然语言处理
-keywords: "ECNU NLP DeepLearning AntNLP 韦阳 godweiyang WeiYang 自然语言处理 深度学习 算法码上来"
-author: 韦阳
+title: Stanley的博客
+subtitle: 编程爱好者
+description: 菏泽医学院 | 编程 | 自然语言药学处理
+keywords: "菏泽医学院 编程 自然语言药学处理 TehsammStanley 王宁"
+author: 王宁
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://godweiyang.com
+url: https://blog.hypixel.live
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -108,19 +108,10 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: matery
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-- type: git
-  repository:
-    github: git@github.com:godweiyang/godweiyang.github.io.git
-    coding: git@e.coding.net:godweiyang/godweiyang.git
-  branch: master
-- type: baidu_url_submitter
 
 
 live2d:
-  enable: false
+  enable: true
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -137,9 +128,3 @@ live2d:
     show: false
   react:
     opacity: 0.7
-
-baidu_url_submit:
-  count: 100
-  host: godweiyang.com
-  token: jp7MKvOw74Yh3F09
-  path: baidu_urls.txt
